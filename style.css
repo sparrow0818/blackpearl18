@@ -188,9 +188,12 @@ input[type=text]{
     right: 5%;
     position: absolute;
 }
+.text5{
+    font-family:NoirBold;
 .ace{
     font-size: 18px;
     text-shadow: 1px 1px black;
+    font-family:NoirRegular;
 }
 img {
 	width:50px;
