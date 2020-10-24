@@ -1,6 +1,6 @@
 @font-face {
 	font-family:"Odachi";
-	src: url("odachi 400.otf");
+	src: url("Odachi 400.otf");
 }
 @font-face {
 	font-family:"NoirRegular";
@@ -43,7 +43,7 @@ li, a{
     font-size:  20px;
     color: white;
     text-decoration: none;
-    font-family: "Noir";
+    font-family: NoirRegular;
     src: url("Regular 800.otf");
    
 }
