@@ -1,0 +1,228 @@
+@font-face {
+	font-family:"Odachi";
+	src: url("odachi 400.otf");
+}
+@font-face {
+	font-family:"NoirRegular";
+	src: url("NoirStd-Regular.ttf");
+}
+@font-face {
+	font-family:"NoirBold";
+	src: url("NoirPro-Bold.ttf");
+}
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.sparrow1{
+    background-image: url("talon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    height: 100%;
+}
+.sparrow2{
+    background-image: url("america.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.sparrow3{
+    background-image: url("mountain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+li, a{
+    font-weight: 500;
+    font-size:  20px;
+    color: white;
+    text-decoration: none;
+    font-family: "Noir";
+    src: url("Regular 800.otf");
+   
+}
+header{
+    background-color: #015668;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    margin-right: auto;
+	margin-left:20px;
+    cursor: pointer;
+    font-family:Odachi;
+    font-size: 30px;
+}
+.nav-bar{
+    list-style: none;
+}
+.nav-bar li{
+    display: inline-block;
+    padding: 0px 50px;
+}
+.nav-bar li a{
+    transition: none;
+}
+.blackpearl1{
+	text-align: center;
+    font-size: 30px;
+    color: white;
+	font-family:NoirBold
+}
+.texta{
+    text-decoration: none;
+    padding: 50px;
+    text-shadow: 2px 2px black;
+}
+.textb{
+	text-shadow: 2px 2px grey;
+    font-family: "Noir";
+}
+.butones{
+    width: auto;
+    padding: 10px 18px;
+    background-color:  #015668;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.blackpearl2{
+    text-align: left;
+    font-size: 30px;
+    padding: 200px 4%;
+    margin: auto;
+    color: #ffd369;
+}
+.textc{
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+}
+.textd{
+    text-shadow: 1px 1px black;
+}
+.box{
+    width: 300px;
+    text-align: center;
+    background: rgba(2, 54, 133, 0.411);
+    padding: 20px;
+    margin: 8% auto 0;
+    font-size: 16px;
+    color: #ffd369;;
+}
+input[type=text]{
+    width: 80%;
+    padding: 5px 5%;
+    display: inline-block;
+    border: 1px solid #cccccc;
+}
+.blackpearl3{
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    padding: none;
+    font-family: NoirStd-regular;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.texte{
+    text-shadow: 1px 1px black;
+	font-family: NoirBold;
+}
+.textf{
+    text-shadow:2px 2px black;
+	font-family: NoirBold;
+}
+.canon1{
+    text-align: center;
+}
+.canon2{
+	text-align:justify;
+}
+.slot1{
+    width: 300px;
+    text-align: center;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px grey;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    left: 5%;
+    position: absolute;
+}
+.slot2{
+    width: 300px;
+    text-align: center;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px grey;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    left: 40%;
+    position: absolute;
+}
+.slot3{
+    width: 300px;
+    text-align: center;
+    background: rgba(52, 15, 185, 0.1);
+    box-shadow: 5px 10px grey;
+    padding: 20px;
+    margin: 1% auto 0;
+    font-size: 16px;
+    color: black;
+    right: 5%;
+    position: absolute;
+}
+.ace{
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+img {
+	width:50px;
+	background-position:center;
+	background-size:cover;
+	height:50px;
+
+}
+.slot1 .icon{
+	line-height:30px;
+	background:#015668;
+	background-size:cover;
+
+}
+.slot2 .icon{
+	line-height:30px;
+	background:#015668;
+	background-size:cover;
+}
+.slot3 .icon {
+	line-height:30px;
+	background:#015668;
+	background-size:cover;
+}
+footer{
+	position:absolute;
+	right:0;
+	left:0;
+	bottom:0
+	padding:1rem;
+	text-align:left;
+	background-color:#015668;
+	font-size:20px;
+	font-family:Odachi;
+	color:#ffd369;
+	margin-left:auto;
+}
+	
