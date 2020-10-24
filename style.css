@@ -221,9 +221,9 @@ img {
 footer{
 	position:absolute;
 	right:0;
+	bottom:0left:0;
 	left:0;
-	bottom:0
-	padding:1rem;
+	padding:0.5rem;
 	text-align:left;
 	background-color:#015668;
 	font-size:20px;
