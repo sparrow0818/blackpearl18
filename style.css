@@ -84,7 +84,7 @@ header{
 }
 .textb{
 	text-shadow: 2px 2px grey;
-    font-family: "Noir";
+    font-family: NoirRegular;
 }
 .butones{
     width: auto;
@@ -101,6 +101,7 @@ header{
     padding: 200px 4%;
     margin: auto;
     color: #ffd369;
+    font-family: NoirBold
 }
 .textc{
     font-weight: bold;
@@ -109,6 +110,7 @@ header{
 }
 .textd{
     text-shadow: 1px 1px black;
+    text-family: NoirRegular
 }
 .box{
     width: 300px;
@@ -141,13 +143,14 @@ input[type=text]{
 }
 .textf{
     text-shadow:2px 2px black;
-	font-family: NoirBold;
+	font-family: NoirRegular;
 }
 .canon1{
     text-align: center;
 }
 .canon2{
 	text-align:justify;
+	font-family: NoirRegular
 }
 .slot1{
     width: 300px;
